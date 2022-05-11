@@ -1,0 +1,101 @@
+        body {background-color: rgb(0, 0, 0);
+        text-align: center;
+        margin-top:0px;
+
+font-family:'Nunito', sans-serif;
+}
+        h1 {color: rgb(153, 0, 255);}
+        h2 {color: rgb(97, 6, 182);}
+        p {color: rgb(105, 68, 209);}
+        h3 {color: rgb(105, 68, 209);}
+        
+        .navmenu ul li
+        { 
+                text-align: center;
+                list-style-type: none;
+                margin: 17px;
+                padding: 0;
+                text-decoration: none;
+                display: inline-block;
+                position: relative; 
+                font-weight: 600; 
+        }
+        .nav-menu
+        {
+                background-color: rgb(255, 0, 136);
+                width: 100%;
+                height: 67px;
+        }
+        .links{
+                color: rgb(132, 0, 255);
+        }
+        .logo-menu{
+        width: 100px;
+        height: 50px;
+        float: left;
+        margin: 9px;
+        }
+
+ * {box-sizing:border-box}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display:none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #ff00dd;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slideshow-container-total{
+  margin-top: -8px;
+}
